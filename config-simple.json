@@ -1,0 +1,29 @@
+{
+    "service": {
+        "servers": [
+            {
+                "name": "roshanApi",
+                "timeout":30000,
+                "protocol":"http",
+                "hosts": [
+                    {
+                        "host": "localhost",
+                        "port": "5001"
+                    }
+                ]
+            },
+            {
+                "name": "orderApi",
+                "timeout":30000,
+                "protocol":"http",
+                "hosts": [
+                    {
+                        "host": "localhost",
+                        "port": "4001"
+                    }
+                ]
+            }
+        ]
+    }
+
+}

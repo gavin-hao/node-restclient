@@ -1,0 +1,16 @@
+{
+    "name": "api-client",
+    "author": {
+        "name": "Hao Zhigang"
+    },
+    "description": "api client,with client side loadbalance",
+    "version": "0.0.2",
+    "main": "./api_client.js",
+    "_id": "roshan-client@0.0.1",
+    "_from": "roshan-client@*",
+    "dependencies": {
+        "lodash": "2.4.1",
+        "request": "~2.47.0",
+        "querystring": "*"
+    }
+}
